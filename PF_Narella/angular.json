@@ -26,10 +26,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "PF_Narella/node_modules/bootstrap/dist/css/bootstrap.css"
+              "C:/Users/Naruuwhite/Desktop/Arg Programa/PF_Narella/PF_Narella/node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": [
-              "PF_Narella/node_modules/bootstrap/dist/js/bootstrap.js"
+              "C:/Users/Naruuwhite/Desktop/Arg Programa/PF_Narella/PF_Narella/node_modules/bootstrap/dist/dist/js/bootstrap.js"
             ]
           },
           "configurations": {
