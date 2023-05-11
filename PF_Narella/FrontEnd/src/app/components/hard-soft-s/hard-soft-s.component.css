@@ -1,0 +1,11 @@
+.row {
+    background-color: rgb(138, 88, 255);
+    padding: 20px;
+    margin:0;
+}
+
+@media (max-width: 575px){
+    .row {
+        width: 102.5%;
+    }
+}

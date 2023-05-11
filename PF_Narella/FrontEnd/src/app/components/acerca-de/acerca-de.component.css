@@ -1,0 +1,107 @@
+.row {
+    padding: 150px;
+    margin:0;
+}
+div {
+    background-color:  rgb(138, 88, 255);
+    text-align: center;
+}
+/*Estilo de foto de perfil*/
+
+@media (min-width: 576px){
+    #fotodeperfil {
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 5%;
+        top: 600px;
+    
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 34%;
+        top: 800px;
+        
+    }
+}
+
+/*Estilo carrera*/
+
+@media (min-width: 576px){
+    #carrera {
+        position: absolute;
+        top: 132%;
+        left: 7%;
+        background-color: aliceblue;
+        
+    }
+}
+
+
+/*Etiqueta nombre*/
+@media (min-width: 576px){
+#nombre{
+    font-weight: bold;
+    position: absolute;
+    top: 127%;
+    left: 8%;
+    
+}
+
+
+/*Estilo info personal*/
+@media (min-width: 576px){
+ #acercade { 
+    position: absolute;
+        top: 110%;
+        right: 30%;
+ }  
+ 
+ @media (min-width: 576px) {
+    #infoperso {
+        position: absolute;
+        top: 120%;
+        left: 35%;
+        background-color: rgb(228, 198, 255);
+    }
+ }
+
+
+}
+
+}
+
+/*Estilo celular*/
+@media (max-width: 575px){
+    .row {
+        width: 102.5%;
+    }
+
+   #nombre {
+    font-weight: bold;
+    position: relative;
+    bottom: 4em;
+   }
+   #carrera {
+    position: relative;
+    bottom: 4em;
+    background-color: aliceblue;
+   }
+   #acercade {
+    position: relative;
+    bottom: 1em;
+   }
+
+   #infoperso {
+    position: relative;
+    bottom: 1em;
+    background-color: rgb(178, 157, 211);
+   }
+
+}
