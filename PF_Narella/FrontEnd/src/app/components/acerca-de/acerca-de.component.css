@@ -1,6 +1,7 @@
 .row {
-    padding: 150px;
     margin:0;
+    box-sizing: border-box;
+    padding: 80px;
 }
 div {
     background-color:  rgb(138, 88, 255);
@@ -17,17 +18,6 @@ div {
         left: 5%;
         top: 600px;
     
-    }
-}
-@media (max-width: 575px){
-    #fotodeperfil {
-        position: absolute;
-        width: 30%;
-        border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
-        left: 34%;
-        top: 800px;
-        
     }
 }
 
@@ -77,10 +67,12 @@ div {
 
 }
 
-/*Estilo celular*/
+/*----Estilo celular----*/
 @media (max-width: 575px){
     .row {
         width: 102.5%;
+        margin: 0;
+        padding: 125px;
     }
 
    #nombre {
@@ -104,4 +96,14 @@ div {
     background-color: rgb(178, 157, 211);
    }
 
+   @media (max-width: 575px){
+    #fotodeperfil {
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 34%;
+        top: 800px;
+    }
+}
 }

@@ -1,9 +1,11 @@
 .redes {
-  
    float: right;
    margin-top: 30px; 
    margin-right: 0.5em;
-   
+   display: flex;
+}
+.row {
+    margin: 0;
 }
 
 #logoAP {
@@ -35,3 +37,4 @@ flex-direction: column !important;
     margin: 0.2em;
 }
 }
+

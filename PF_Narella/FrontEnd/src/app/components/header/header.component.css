@@ -1,5 +1,8 @@
-.row{
-background-color: rgb(138, 88, 255);
-margin: 0;
-}
 
+.div {
+    margin:0;
+}
+* {
+    background-color: rgb(138, 88, 255);
+    box-sizing: border-box;
+}
