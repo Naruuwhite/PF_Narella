@@ -1,4 +1,4 @@
-package com.portfolionarella.snp;
+package com.portfolio.snp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
