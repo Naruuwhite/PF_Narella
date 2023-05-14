@@ -4,6 +4,7 @@ import com.portfolio.snp.Entity.Persona;
 import com.portfolio.snp.Interface.IPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,9 +15,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+
 public class PersonaController {
     @Autowired IPersonaService ipersonaService;
-    
     @GetMapping("personas/traer")
     public List<Persona> getPersona(){
         return ipersonaService.getPersona();
@@ -51,4 +52,8 @@ public class PersonaController {
         return persona; 
     } 
     
+    @GetMapping("/personas/traer/perfil")
+    public Persona findPersona(){
+        return ipersonaService.findPersona((long)6);
+    }
 }

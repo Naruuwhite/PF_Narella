@@ -26,7 +26,7 @@ div {
 @media (min-width: 576px){
     #carrera {
         position: absolute;
-        top: 132%;
+        top: 135%;
         left: 7%;
         background-color: aliceblue;
         
@@ -39,7 +39,7 @@ div {
 #nombre{
     font-weight: bold;
     position: absolute;
-    top: 127%;
+    top: 130%;
     left: 8%;
     
 }
@@ -49,14 +49,14 @@ div {
 @media (min-width: 576px){
  #acercade { 
     position: absolute;
-        top: 110%;
+        top: 115%;
         right: 30%;
  }  
  
  @media (min-width: 576px) {
     #infoperso {
         position: absolute;
-        top: 120%;
+        top: 125%;
         left: 35%;
         background-color: rgb(228, 198, 255);
     }
