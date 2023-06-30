@@ -1,12 +1,16 @@
 <div class="row">
+<body>
+    
 
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
         <img src="../../../assets/Logos/fotoperfil.jfif" class="img-fluid" id="fotodeperfil">
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2" >
+        <div *ngIf="persona">
         <p id="nombre">{{persona.nombre}} {{persona.apellido}}</p>
+    </div>
         <p id="carrera">Full Stack Developer Jr</p>
     </div>
-
+    
 <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
     <span>
         <h1 id="acercade">Acerca de mi</h1>
@@ -15,4 +19,5 @@
     </span>
 </div>
     </div>
-</div>
+</body>
+
